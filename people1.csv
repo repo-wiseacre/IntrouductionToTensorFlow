@@ -1,4 +1,4 @@
 prediction,probability,expected,for flower
-Setosa,40.23325443267822,Setosa,Setosa
-Setosa,37.77726888656616,Versicolor,Setosa
-Setosa,59.17564630508423,Virginica,Setosa
+Versicolor,47.994306683540344,Setosa,Setosa
+Versicolor,41.314494609832764,Versicolor,Setosa
+Versicolor,61.572521924972534,Virginica,Setosa

@@ -75,7 +75,8 @@ def writeCPUUsage(stagedesc) :
             writer.writerow(rowheadcpu)
 
     csvFile.close()
-writeCPUUsage("******Program starts*******")
+osname = "windows" if os.name == 'nt' else 'linux'
+writeCPUUsage("******Program starts %s *******"%osname)
 writeCPUUsage("before Import training dataset ")
 # Import training dataset
 training_dataset = pd.read_csv('d:/vscode-workspace/NMZivkovic_tensorflow/IntrouductionToTensorFlow/iris_training.csv', names=COLUMN_NAMES, header=0)
